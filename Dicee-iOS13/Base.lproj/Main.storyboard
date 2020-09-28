@@ -41,11 +41,18 @@
                                 <state key="normal" title="Roll">
                                     <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="onRollButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P82-RS-DvI"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="diceView1" destination="bTO-5B-TSR" id="IQR-mL-DDP"/>
+                        <outlet property="diceView2" destination="zw9-tc-u0g" id="dOZ-kj-3GY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
